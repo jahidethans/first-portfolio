@@ -1,5 +1,6 @@
 *{margin: 0;
-padding: 0;}
+padding: 0;
+}
 .navbar{  display:flex;
     justify-content:space-around;
     background-color: rgb(238, 164, 67);
@@ -8,10 +9,13 @@ padding: 0;}
     align-items: center;
     /* border: 1px solid black; */
 }
-.logo{padding-right: 800px;
+.logo{
+    /* padding-right: 800px; */
+    margin-right: 1020px;
+    
 padding-left: 0px;
 margin-left: 0px;
-height: 30px;
+height: 25px;
 cursor: pointer;
 
 
@@ -19,6 +23,7 @@ cursor: pointer;
 .menus{display: flex;
 list-style: none;
 margin-left: 10px;
+margin-right: 5px;
 padding-left: 0px;
 }
 .item{margin-right: 20px;
@@ -37,6 +42,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-blend-mode: overlay;
+
     }
     .ban{margin-top: 180px;}
 
@@ -44,20 +50,40 @@ background-blend-mode: overlay;
         font-size:54px;
         font-weight: bold;
         
+        
         }
         
         .bdescriptions{
             font-size: 18px;
             margin-top:15px
+           
         }
 .btn{margin-top: 15px;
 margin-left: 2px;
 padding: 7px 30px;
 border: none;
 border-radius: 20px;
+
 }
 .btn:hover{
     transform: translate(10px);
     transition: 1s;
     cursor: pointer;
 }
+.products{display: flex;
+width: 250px;}
+.highlights{flex-wrap: wrap;
+    background-color: rgb(238, 164, 67);}
+.cards{display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-color: rgb(238, 164, 67);
+}
+.p{ margin-right: 270px;
+margin-left: 21px;}
+
+.producttitle{padding-top: 50px;
+}
+.partial{margin: 1px;}
+
